@@ -1,0 +1,151 @@
+html { 
+  	background: url(store.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+body {
+	background-color: transparent;
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+h1 {
+	line-height: 50px;
+	margin: 0;
+	border-radius: 10px;
+	background-color: #E60000;
+	font-weight: bold;
+	color: white;
+	vertical-align: middle;
+}
+
+.main-header {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+form {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+#add {
+	color: #029907;
+}
+
+#clear {
+	color: #E60000;
+}
+
+#add, #clear {
+	cursor: pointer;
+}
+
+#add:hover, #clear:hover {
+	text-decoration: underline;
+}
+
+.container {
+	padding: 10px;
+	width: 380px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.listController {
+	padding: 10px;
+	margin: 0 10px;
+	background-color: white;
+}
+
+.listController > i {
+	margin: 10px;
+}
+
+.list {
+  	clear: both;
+  	list-style: none;
+  	padding-left: 0;
+  	width: 30%;
+  	margin: 0;
+}
+
+.item{
+	position: relative;
+	cursor: move;
+  	border-bottom: 1px solid #d8d8d8;
+  	margin-top: 10px;
+  	line-height: 50px;
+  	width: 360px;
+}
+
+.item-val {
+	display: inline;
+	vertical-align: middle;
+	width: 250px;
+	padding-left: 20px;
+	margin: 0;
+	cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.selected-item {
+	text-decoration: line-through;
+	color: #737373;
+}
+
+.delete-icon {
+	display: none;
+	cursor: pointer;
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+}
+
+#listEditArea {
+	border-bottom: 1px double #d8d8d8;
+}
+
+#clearAll {
+	margin-left: 174px;
+	margin-bottom: 10px;
+	height: 35px;
+}
+
+input[type="checkbox"] {
+	display: inline;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	margin-left: 10px;
+}
+
+input[type="text"], label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#inputField {
+	height: 50px;
+	width: 260px;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+.list > input[type="checkbox"] {
+	padding-bottom: 10px;
+}
